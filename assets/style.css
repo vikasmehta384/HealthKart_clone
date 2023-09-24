@@ -1,0 +1,1045 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+
+    height: 60px;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left{
+    float: left;
+}
+.right {
+
+    float: right;
+
+}
+#header .container{
+    width:  100%;
+    margin: 0 auto;
+}
+
+.container {
+
+    width: 1500px;
+
+    margin: 0 auto;
+
+}
+
+.col-1{
+    width: 70%;
+    
+    margin: 12px 0px;
+    margin-top: 7px;
+}
+.col-2 {
+    margin: 12px 0px;
+    width: 30%;
+    margin-top: 20px;
+}
+.logo{
+    width: 20%;
+   margin-top: 10px;
+    margin-left: 190px;
+   
+}
+img{
+    width: 200px;
+    height: 45px ;
+}
+.search {
+    width: 60%; 
+    margin-top: 20px;  
+}
+
+.search input[type="text"] {
+
+    width: 80%;
+
+    height: 30px;
+    
+    border: 1px  rgb(178, 177, 177);
+    border-radius: 5px;
+    font-size: medium;
+    letter-spacing: .45px;
+
+
+}
+
+.left {
+    float: left;
+}
+
+.search button {
+
+   height: 30px;
+   width: 40px;
+   border: none;
+   margin-left: 10px;
+
+}
+.col-2 button{
+    width: 120px;
+    height: 40px;
+    background-color: #00b5b7;
+    border-radius: 4px;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+    border: 1px  rgb(178, 177, 177);
+    padding: 3px;
+}
+
+.col-2 .cart{
+    margin-left: 30px;
+   
+    
+    font-size: xx-large;
+    padding: 30px;
+   
+}
+
+#header::after{
+    content: " ";
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+#section-1{
+    margin-top: 40px;
+    margin-left: 11%;
+    margin-right: 12%;
+}
+
+#section-1 ul li{
+    display: inline-block;
+
+    padding: 5px;
+    padding-left: 10px;
+
+    font-weight: 900;
+
+    font-size: medium;
+  
+}
+
+#section-1 ul li a{
+    text-decoration: none;
+
+    letter-spacing: 1.5px;
+
+    color: black;
+}
+
+#section-1 ul li a i{
+    color: #00b5b7;
+    padding: 5px;
+    font-size: large;
+}
+.shop{
+    border: 0.5px solid rgb(169, 163, 163);
+    padding: 8px;
+}
+#banner{
+    margin-top: 45px;
+    background-color: #e6f4f4;
+}
+#banner h3{
+    text-align: center;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+#banner-2 {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+#banner-2 img{
+    width: 98%;
+    height: 400px;
+}
+
+#section-2{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#section-2 ul li{
+    display: inline-block;
+
+    padding: 5px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 900; 
+}
+#section-2 .container .pro button{
+    border: none;
+}
+#section-2 .container .pro p {
+  
+    font-size: 25px;
+
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+#section-2 .container .pro h3 button {
+    margin-left: 760px;
+    color: #00b5b7;
+    border: none;
+    font-size: medium;
+    font-weight: 700;
+}
+#section-2 .container .pro h3 button a{
+    color: #00b5b7;
+}
+
+#section-2 .product{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#section-2 .product .m-img img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#section-2 .product .desc{
+    margin-top: 10px;
+    padding-top: 20px;
+    border:0.5px ridge #d0d3de;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: left;
+    
+}
+#section-2 .product h4{
+    color: black;
+    padding: 5px;
+}
+#section-2 .product h5{
+    color: black;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+#section-2 .product h5 button{
+    background-color: #00b5b7;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 4px;
+    margin-right: 10px;
+}
+#section-2 .product .rate li{
+    display: inline-block;
+    color:black;
+    padding: 5px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: 900; 
+}
+#section-2 .product .rate s{
+    color: rgb(169, 165, 165);
+    font-size: medium;
+}
+
+#section-2 .product .rate .off{
+    color: #00a856;
+    font-size: medium;
+}
+
+#section-2 .kart{
+    
+    margin-top: 40px;
+    font-size: larger;
+    border: 0.2px solid #ff8914;
+    border-radius: 5px;
+    padding: 8px;
+    
+    letter-spacing: 2px;
+    text-align: center;
+   
+}
+#section-2 .kart a{
+    color: black;
+}
+#section-2 .kart i{
+    padding-right: 10px;
+}
+
+.kart:hover {
+    background-color: #ff8914;
+    
+}
+
+#section-3{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#section-3 ul li{
+    display: inline-block;
+
+    padding: 5px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 900; 
+}
+#section-3 .container .pro button{
+    border: none;
+}
+#section-3 .container .pro p {
+  
+    font-size: 25px;
+
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+#section-3 .container .pro h3 button {
+    margin-left: 760px;
+    color: #00b5b7;
+    border: none;
+    font-size: medium;
+    font-weight: 700;
+}
+#section-3 .container .pro h3 button a{
+    color: #00b5b7;
+}
+
+
+#section-3 .product{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#section-3 .product .m-img img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#section-3 .product .desc{
+    margin-top: 10px;
+    padding-top: 20px;
+    border:0.5px ridge #d0d3de;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: left;
+    
+}
+#section-3 .product h4{
+    color: black;
+    padding: 5px;
+}
+#section-3 .product h5{
+    color: black;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+#section-3 .product h5 button{
+    background-color: #00b5b7;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 4px;
+    margin-right: 10px;
+}
+#section-3 .product .rate li{
+    display: inline-block;
+    color:black;
+    padding: 5px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: 900; 
+}
+#section-3 .product .rate s{
+    color: rgb(169, 165, 165);
+    font-size: medium;
+}
+
+#section-3 .product .rate .off{
+    color: #00a856;
+    font-size: medium;
+}
+
+#section-3 .kart{
+    
+    margin-top: 40px;
+    font-size: larger;
+    border: 0.2px solid #ff8914;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    
+    letter-spacing: 2px;
+   
+}
+#section-3 .kart a{
+    color: black;
+}
+#section-3 .kart i{
+    padding-right: 10px;
+}
+
+.kart:hover {
+    background-color: #ff8914;
+    
+}
+#section-4{
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#section-4 .container .m-img{
+    display: inline-block;
+}
+#section-4 .container img{
+    width: 295px;
+    height: 420px;
+    margin-right: 10px;
+    border-radius: 8px  ;
+}
+#section-5{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#section-5 ul li{
+    display: inline-block;
+
+    padding: 5px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 900; 
+}
+#section-5 .container .pro button{
+    border: none;
+}
+#section-5 .container .pro p {
+  
+    font-size: 25px;
+
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+#section-5 .container .pro h3 button {
+    margin-left: 870px;
+    color: #00b5b7;
+    border: none;
+    font-size: medium;
+    font-weight: 700;
+}
+#section-5 .container .pro h3 button a{
+    color: #00b5b7;
+}
+
+#section-5 .product{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#section-5 .product .m-img img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#section-5 .product .desc{
+    margin-top: 10px;
+    padding-top: 20px;
+    border:0.5px ridge #d0d3de;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: left;
+    
+}
+#section-5 .product h4{
+    color: black;
+    padding: 5px;
+}
+#section-5 .product h5{
+    color: black;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+#section-5 .product h5 button{
+    background-color: #00b5b7;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 4px;
+    margin-right: 10px;
+}
+#section-5 .product .rate li{
+    display: inline-block;
+    color:black;
+    padding: 5px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: 900; 
+}
+#section-5 .product .rate s{
+    color: rgb(169, 165, 165);
+    font-size: medium;
+}
+
+#section-5 .product .rate .off{
+    color: #00a856;
+    font-size: medium;
+}
+
+#section-5 .kart{
+  
+    margin-top: 40px;
+    font-size: larger;
+    border: 0.2px solid #ff8914;
+    border-radius: 5px;
+    padding: 8px;  
+    letter-spacing: 2px;
+    text-align: center;  
+}
+#section-5 .kart a{
+    color: black;
+}
+
+
+#section-5 .kart i{
+    padding-right: 10px;
+}
+.kart:hover {
+    background-color: #ff8914;    
+}
+
+#section-6{
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#section-6 .container .m-img{
+    display: inline-block;
+}
+#section-6 .container img{
+    width: 295px;
+    height: 420px;
+    margin-right: 10px;
+    border-radius: 8px  ;
+}
+#section-6 .container .heading button{
+    border: none;
+}
+#section-6 .container .heading p {
+  
+    font-size: 30px;
+
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#section-7{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#section-7 ul li{
+    display: inline-block;
+
+    padding: 5px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 900; 
+}
+#section-7 .container .pro button{
+    border: none;
+}
+#section-7 .container .pro p {
+  
+    font-size: 25px;
+
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+#section-7 .container .pro h3 button {
+    margin-left: 740px;
+    color: #00b5b7;
+    border: none;
+    font-size: medium;
+    font-weight: 700;
+}
+#section-7 .container .pro h3 button a{
+    color: #00b5b7;
+}
+
+
+#section-7 .product{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#section-7 .product .m-img img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#section-7 .product .desc{
+    margin-top: 10px;
+    padding-top: 20px;
+    border:0.5px ridge #d0d3de;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: left;
+    
+}
+#section-7 .product h4{
+    color: black;
+    padding: 5px;
+}
+#section-7 .product h5{
+    color: black;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+#section-7 .product h5 button{
+    background-color: #00b5b7;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 4px;
+    margin-right: 10px;
+}
+#section-7 .product .rate li{
+    display: inline-block;
+    color:black;
+    padding: 5px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: 900; 
+}
+#section-7 .product .rate s{
+    color: rgb(169, 165, 165);
+    font-size: medium;
+}
+
+#section-7 .product .rate .off{
+    color: #00a856;
+    font-size: medium;
+}
+
+#section-7 .kart{
+    
+    margin-top: 40px;
+    font-size: larger;
+    border: 0.2px solid #ff8914;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    
+    letter-spacing: 2px;
+   
+}
+#section-7 .kart a{
+    color: black;
+}
+#section-7 .kart i{
+    padding-right: 10px;
+}
+
+.kart:hover {
+    background-color: #ff8914;
+    
+}
+#section-8{
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#section-8 .container .m-img{
+    display: inline-block;
+}
+#section-8 .container img{
+    width: 295px;
+    height: 420px;
+    margin-right: 10px;
+    border-radius: 8px  ;
+}
+#section-8 .container .heading button{
+    border: none;
+}
+#section-8 .container .heading p {
+  
+    font-size: 30px;
+
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#section-9{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#section-9 ul li{
+    display: inline-block;
+
+    padding: 5px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 900; 
+}
+#section-9 .container .pro button{
+    border: none;
+}
+#section-9 .container .pro p {
+  
+    font-size: 25px;
+
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+#section-9 .container .pro h3 button {
+    margin-left: 740px;
+    color: #00b5b7;
+    border: none;
+    font-size: medium;
+    font-weight: 700;
+}
+#section-9 .container .pro h3 button a{
+    color: #00b5b7;
+}
+
+
+#section-9 .product{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#section-9 .product .m-img img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#section-9 .product .desc{
+    margin-top: 10px;
+    padding-top: 20px;
+    border:0.5px ridge #d0d3de;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: left;
+    
+}
+#section-9 .product h4{
+    color: black;
+    padding: 5px;
+}
+#section-9 .product h5{
+    color: black;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+#section-9 .product h5 button{
+    background-color: #00b5b7;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 4px;
+    margin-right: 10px;
+}
+#section-9 .product .rate li{
+    display: inline-block;
+    color:black;
+    padding: 5px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: 900; 
+}
+#section-9 .product .rate s{
+    color: rgb(169, 165, 165);
+    font-size: medium;
+}
+
+#section-9 .product .rate .off{
+    color: #00a856;
+    font-size: medium;
+}
+
+#section-9 .kart{
+    
+    margin-top: 40px;
+    font-size: larger;
+    border: 0.2px solid #ff8914;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    
+    letter-spacing: 2px;
+   
+}
+#section-9 .kart a{
+    color: black;
+}
+#section-9 .kart i{
+    padding-right: 10px;
+}
+
+.kart:hover {
+    background-color: #ff8914;
+    
+}
+#banner-3 {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+#banner-3 img{
+    width: 80%;
+    margin-left: 140px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#section-11{
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#section-11 .container .m-img{
+    display: inline-block;
+}
+#section-11 .container img{
+    width: 160px;
+    height: 140px;
+    margin-right: 10px;
+    border-radius: 8px  ;
+}
+#section-11 .container .heading button{
+    border: none;
+}
+#section-11 .container .heading p {
+  
+    font-size: 30px;
+
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#para{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#para p{
+    color: black;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 900;
+}
+#para ul{
+    list-style-type: circle;
+    color: black;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 20px;
+   
+}
+#para li{
+    padding: 5px;
+}
+#para .bol{
+    color: black;
+    letter-spacing: 1px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.foot{
+   display: inline-block;
+ 
+    padding-top: 20px;
+}
+
+.col4 ul li {
+
+
+   margin-top: 10px;
+    margin-inline-end: 106px;
+
+    padding: 0px;
+
+    font-size: small;
+    margin-left: 20px;
+    
+}
+.col4 ul li i{
+    padding-right: 5px;
+}
+
+#footer{
+    background-color: black;
+    padding-bottom: 50px;
+}
+#footer .container img{
+    width: 260px;
+    height: 60px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+
+
+.col4 ul a{
+    color: #f0f5ff;
+
+}
+.col4 ul a h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-weight: 900;
+    
+}
+
+.fl p{
+    color: white;
+    font-size: small;
+    margin-left: 10px;
+}
+.pa{
+    margin-top: 8px;
+    
+}
+.ha{
+    font-size: medium;
+    margin-bottom: 5px;
+}
+.fl p{
+   
+    font-size: large;
+    margin-top: 10px;
+    padding: 10px; 
+}
+.fl i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#footer li{
+    list-style-type: none;
+}
+#footer .container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#footer .container hr{
+    width: 80%;
+}
+.hal{
+    display: flex;
+    
+}
+
+.other{
+    display: flex;
+}
+.other ul{
+    display: flex;
+    color: #f0f5ff;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+}
+ .other ul p{
+    border-right: 1px solid gray;
+    margin-right: 3px;
+    padding: 10px;
+    
+   
+}
+.other .line{
+   
+    height: 30px;
+}
+.other .cll{
+    margin-left: 280px;
+}
+
